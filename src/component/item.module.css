@@ -1,0 +1,56 @@
+.div{
+    
+    margin:auto;
+    width:400px;
+    margin-top:2rem;
+   
+    padding-top:20px;
+    
+}
+.div > div{
+    width:100%;
+    
+}
+.div > div > h3{
+    text-align: left;
+    margin-left:2rem;
+    font-size:30px;
+}
+img{
+    width:100%;
+    border-radius: 2rem;
+}
+.div > div:nth-child(2) > p{
+    font-size:20px;
+    text-align: left;
+    margin-left:2rem;
+    line-height: 30px;
+}
+.div > div:nth-child(3) {
+    text-align: left;
+    margin-left: 2rem;;
+    
+    
+}
+
+.div > div:nth-child(3) > p{
+    font-size:24px;
+    width:60%;
+    font-weight: bold;
+  
+}
+.div > div:nth-child(3) > button{
+   
+    float:right;
+    width:35%;
+    height:40px;
+    color:white;
+    font-size:20px;
+    background-color: green;
+    margin-top:0px;
+}
+span{
+    color:red;
+    text-decoration: line-through;
+    
+}
